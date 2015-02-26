@@ -1,8 +1,66 @@
 /* CSS main stylesheet */
 
+/* Use odstemplikbold for subtitle */
+
+/* COLORS
+	Turquoise:  #69B288;
+	Mint:       #9FDDBD;
+	Olive:      #91973F;
+	Dark Brown: #382923;
+*/
+
+/* *{
+	outline: 1px dotted rgba(255,0,0,.25);
+} */
+
 html, body{
 	background-color: white;
-	color: #382923;
+	
 	font-family: "Jacques Francois", serif;
 	font-size: 16px; /* 1rem */
+	color: #382923;
 }
+
+header.main{
+	text-align: center;
+}
+
+	header.main h1{	
+		margin-bottom: 0;
+
+		font-family: "Quicksand", sans-serif;
+		font-size: 8.33vw;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #69B288;
+	}
+
+	header.main h2{
+		margin-top: 0;
+		margin-bottom: 0;
+
+		font-family: "odstemplikbold", sans-serif;
+		font-size: 8.33vw;
+		text-transform: lowercase;
+		color: #9FDDBD;
+	}
+
+hr{
+	height: 1px;
+	background-color: #91973F;
+	border: 0;
+
+}
+
+nav.main{
+	text-align: center;
+}
+
+	nav.main a{
+		display: inline-block;
+		padding: 0.25em 0.75em;
+
+		text-decoration: none;
+		text-transform: lowercase;
+		color: #382923;
+	}
