@@ -1,0 +1,8 @@
+/* CSS main stylesheet */
+
+html, body{
+	background-color: white;
+	color: #382923;
+	font-family: "Jacques Francois", serif;
+	font-size: 16px; /* 1rem */
+}
