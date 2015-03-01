@@ -22,6 +22,7 @@ html, body{
 }
 
 header.main{
+	position: relative;
 	text-align: center;
 }
 
@@ -45,12 +46,58 @@ header.main{
 		color: #9FDDBD;
 	}
 
+		header.main h2::before,
+		header.main h2::after{
+			content: "";
+			display: block;
+			position: absolute;
+			bottom: 0;
+			width: 58px;
+			height: 39px;
+			background: url(../images/floral-motif-mobile.svg);
+			background-size: 58px 39px;
+		}
+
+		header.main h2::before{
+			left: 0;
+		}
+
+		header.main h2::after{
+			right: 0;
+
+			transform: scaleX(-1);
+		}
+
 hr{
 	height: 1px;
 	background-color: #91973F;
 	border: 0;
-
+	position: relative;
+	width: 90%;
+	max-width: 1280px;
 }
+
+	hr::before,
+	hr::after{
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: -7px;
+		width: 23px;
+		height: 13px;
+		background: url(../images/floral-motif-line-break.svg);
+		background-size: 23px 13px;
+	}
+
+	hr::before{
+		left: -22px;
+	}
+
+	hr::after{
+		right: -22px;
+
+		transform: scaleX(-1);
+	}
 
 nav.main{
 	text-align: center;
