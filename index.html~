@@ -18,15 +18,14 @@
 	<body>
 		<header class="main">
 			<h1>Katie M. K. Blaede</h1>
-			<!--h2>Illustration &amp; Design</h2-->
+			<h2>Illustration &amp; Design</h2>
 		</header>
-		<!--hr /-->
+		<hr />
 		<nav class="main">
-			<!--a href="#">Portfolio</a>
+			<a href="#">Portfolio</a>
 			<a href="#">About</a>
 			<a href="#">Contact</a>
-			<a href="#">Blog</a-->
-		    <p>Website coming soon.</p>
+			<a href="#">Blog</a>
 		</nav>
 	</body>
 </html>
