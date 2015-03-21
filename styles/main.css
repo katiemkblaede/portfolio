@@ -137,19 +137,16 @@ img{
 @media only screen and (min-width: 640px) {
 	header.main h2::before,
 	header.main h2::after{
+		width: 110px;
 		background-image: url(../images/floral-motif-smablet.svg);
 	}
 
 		header.main h2::before{
-			left: -18.75vw;
-			background-position: left center;
+			left: -125px;
 		}
 
 		header.main h2::after{
-			right: -18.75vw;
-			background-position: left center;
-
-			transform: scaleX(-1);
+			right: -125px;
 		}
 }
 
@@ -163,6 +160,20 @@ img{
 	header.main h2{
 		font-size: 48px;
 	}
+
+	header.main h2::before,
+	header.main h2::after{
+		width: 141px;
+		background-image: url(../images/floral-motif-tablet.svg);
+	}
+
+		header.main h2::before{
+			left: -155px;
+		}
+
+		header.main h2::after{
+			right: -155px;
+		}
 }
 
 
