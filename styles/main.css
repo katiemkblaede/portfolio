@@ -9,9 +9,9 @@
 	Dark Brown: #382923;
 */
 
-/* *{
+/**{
 	outline: 1px dotted rgba(255,0,0,.25);
-} */
+}*/
 
 html, body{
 	background-color: white;
@@ -36,7 +36,14 @@ header.main{
 		color: #69B288;
 	}
 
+		header.main h1 a{
+			color: inherit;
+			text-decoration: none;
+		}
+
 	header.main h2{
+		display: inline-block;
+		position: relative;
 		margin-top: 0;
 		margin-bottom: 0;
 
@@ -51,19 +58,22 @@ header.main{
 			content: "";
 			display: block;
 			position: absolute;
-			bottom: 0;
-			width: 58px;
-			height: 39px;
+			top: 0;
+			width: 100%;
+			height: 100%;
 			background: url(../images/floral-motif-mobile.svg);
-			background-size: 58px 39px;
+			background-size: contain;
+			background-repeat: no-repeat;
 		}
 
 		header.main h2::before{
-			left: 0;
+			left: -18.75vw;
+			background-position: left center;
 		}
 
 		header.main h2::after{
-			right: 0;
+			right: -18.75vw;
+			background-position: left center;
 
 			transform: scaleX(-1);
 		}
@@ -105,9 +115,53 @@ nav.main{
 
 	nav.main a{
 		display: inline-block;
-		padding: 0.25em 0.75em;
+		padding: 0.5em 0.75em;
 
 		text-decoration: none;
 		text-transform: lowercase;
 		color: #382923;
 	}
+
+.grid{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+img{
+	width: 100%;
+}
+
+/* Smablet-up screens (larger than most phones) */
+@media only screen and (min-width: 640px) {
+	
+}
+
+
+/* Medium-up screens (larger than a small tablet) */
+@media only screen and (min-width: 768px) {
+	header.main h1{
+		font-size: 60px;
+	}
+
+	header.main h2{
+		font-size: 48px;
+	}
+}
+
+
+/* Large-up screens (larger than an iPad landscape) */
+@media only screen and (min-width: 1025px) {
+	
+}
+
+
+/* XLarge-up screens (larger than 1440x900) */
+@media only screen and (min-width: 1441px) {
+	
+}
+
+
+/* XXLarge-up screens (larger than 1080p) */
+@media only screen and (min-width: 1921px) {
+	
+}
