@@ -6,10 +6,9 @@
 */
 
 /* COLORS
-	Turquoise:  #69B288;
-	Mint:       #9FDDBD;
-	Olive:      #91973F;
-	Dark Brown: #382923;
+	Turquoise:  #8dd8cf;
+	Dark Gray:  #5e6060;
+	Light Gray: #999;
 */
 
 /**{
@@ -21,68 +20,40 @@ body {
 	background-color: white;
 	background-image: url(../images/speckletone-bg.png);
 
-	color: #382923;
+	color: #5e6060;
 	font-family: "Lora", serif;
-	font-size: 18px; /* 1rem */
+	font-size: 17.5px; /* 1rem */
 }
 
 header.main {
-	max-width: 400px;
 	margin: 2em auto;
+	max-width: 88.8889%;
+	width: 500px;
 }
 
-header.main > * {
-	color: transparent;
-	font-size: 0px!important;
-}
-
-
-hr {
-	height: 1px;
-	max-width: 1280px;
-	position: relative;
-	width: 90%;
-
-	background-color: #91973F;
-
-	border: 0;
-}
-
-	hr::before,
-	hr::after {
-		display: block;
-		bottom: -7px;
-		height: 13px;
-		position: absolute;
-		width: 23px;
-
-		background: url(../images/floral-motif-line-break.svg);
-		background-size: 23px 13px;
-
-		content: "";
-	}
-
-	hr::before {
-		left: -22px;
-	}
-
-	hr::after {
-		right: -22px;
-
-		transform: scaleX(-1);
+	header.main > * {
+		color: transparent;
+		font-size: 0px!important;
 	}
 
 nav.main {
+	margin: 0 0.75rem;
+	max-width: calc(1280px - 3rem);
+
+	border-bottom: 2px solid #999;
+	border-top: 2px solid #999;
+
+	font-family: "Montserrat", sans-serif;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 	nav.main a {
 		display: inline-block;
-		padding: 0.5em 0.75em;
+		padding: 0.75em 1em;
 
-		color: #382923;
+		color: inherit;
 		text-decoration: none;
-		text-transform: lowercase;
 	}
 
 .grid {
@@ -109,46 +80,22 @@ img {
 
 /* Smablet-up screens (larger than most phones) */
 @media only screen and (min-width: 640px) {
-	header.main h2::before,
-	header.main h2::after {
-		width: 110px;
 
-		background-image: url(../images/floral-motif-smablet.svg);
-	}
-
-		header.main h2::before {
-			left: -125px;
-		}
-
-		header.main h2::after {
-			right: -125px;
-		}
 }
 
 
 /* Medium-up screens (larger than a small tablet) */
 @media only screen and (min-width: 768px) {
-	header.main h1 {
-		font-size: 60px;
+	header.main {
+		margin: 3em auto;
 	}
 
-	header.main h2 {
-		font-size: 48px;
+	nav.main {
+		margin: 0 1.5rem;
 	}
 
-	header.main h2::before,
-	header.main h2::after {
-		width: 141px;
-
-		background-image: url(../images/floral-motif-tablet.svg);
-	}
-
-		header.main h2::before {
-			left: -155px;
-		}
-
-		header.main h2::after {
-			right: -155px;
+		nav.main a {
+			padding: 0.75em 1.5em;
 		}
 
 	.grid > * {
@@ -162,6 +109,12 @@ img {
 
 }
 
+/* Grid max-width */
+@media only screen and (min-width: 1280px) {
+	nav.main {
+		margin: 0 auto;
+	}
+}
 
 /* XLarge-up screens (larger than 1440x900) */
 @media only screen and (min-width: 1441px) {
