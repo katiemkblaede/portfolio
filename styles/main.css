@@ -15,7 +15,8 @@
 
 html, body{
 	background-color: white;
-	
+	background-image: url(../images/Speckletone-Background.png);
+
 	font-family: "Jacques Francois", serif;
 	font-size: 16px; /* 1rem */
 	color: #382923;
@@ -26,7 +27,7 @@ header.main{
 	text-align: center;
 }
 
-	header.main h1{	
+	header.main h1{
 		margin-bottom: 0;
 
 		font-family: "Quicksand", sans-serif;
@@ -179,17 +180,17 @@ img{
 
 /* Large-up screens (larger than an iPad landscape) */
 @media only screen and (min-width: 1025px) {
-	
+
 }
 
 
 /* XLarge-up screens (larger than 1440x900) */
 @media only screen and (min-width: 1441px) {
-	
+
 }
 
 
 /* XXLarge-up screens (larger than 1080p) */
 @media only screen and (min-width: 1921px) {
-	
+
 }
