@@ -1,68 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+---
+layout: default
+title: Portfolio
+permalink: /
+nav: 0
+---
 
-		<meta name="description" content="Design and illustration portfolio of Katie M. K. Blaede">
-		<meta name="author" content="Katie M. K. Blaede">
-		<meta name="theme-color" content="#8dd8cf">
-
-		<link href="./images/favicon-256.png" rel="icon" type="image/png" sizes="256x256">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat|Lora:400,400italic" rel="stylesheet" type="text/css">
-		<link href="http://cassidyjames.com/grid.css/grid.css" rel="stylesheet" type="text/css" media="all">
-		<link href="./styles/main.css" rel="stylesheet" type="text/css" media="all">
-		<title>Katie M. K. Blaede</title>
-	</head>
-
-	<body>
-		<header class="main">
-			<h1>Katie M. K. Blaede</h1>
-			<h2>Design &amp; Illustration</h2>
-			<a href="./">
-				<img src="./images/masthead.png" />
-			</a>
-		</header>
-
-		<nav class="main">
-			<a href="./">Portfolio</a>
-			<a href="./about">About</a>
-			<a href="#">Shop</a>
-		</nav>
-
-		<div class="grid thumbs">
-			<a href="./portfolio/irish-blessing" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/irish-blessing.png" />
-				<span>Irish Blessing</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/disney.png" />
-				<span>Disney series</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/emma-and-ben-save-the-dates.png" />
-				<span>Save the Dates for Emma &amp; Ben</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/keebly.png" />
-				<span>Keebly Creations</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/odad.png" />
-				<span>Odad</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/recipe-cards.png" />
-				<span>Recipe Cards</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/wedding-invitation-suite.png" />
-				<span>Wedding Invitations Suite</span>
-			</a>
-			<a href="#" class="whole smablet-half large-third">
-				<img src="./images/thumbnails/wedding-website.png" />
-				<span>Wedding Website</span>
-			</a>
-		</div>
-	</body>
-</html>
+<div class="grid thumbs">
+	{% for item in site.portfolio %}
+	<a href="{{ item.url }}" class="whole smablet-half large-third">
+		<img src="{{ '/images/thumbnails/' | prepend: site.baseurl }}{{ item.image }}" />
+		<span>{{ item.title }}</span>
+	</a>
+	{% endfor %}
+</div>
