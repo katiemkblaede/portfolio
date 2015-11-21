@@ -54,7 +54,13 @@ nav.main {
 
 		color: inherit;
 		text-decoration: none;
+
+		transition: color 250ms ease;
 	}
+
+		nav.main a:hover {
+			color: #8dd8cf;
+		}
 
 .grid {
 	margin: 0 auto;
