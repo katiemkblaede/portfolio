@@ -86,6 +86,18 @@ img {
 	text-decoration: none;
 }
 
+	.thumbs a img {
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+		transition: -webkit-filter 250ms ease,
+		            filter 250ms ease;
+	}
+
+	.thumbs a:hover img {
+		-webkit-filter: none;
+		filter: none;
+	}
+
 .about img {
 	margin-top: 1em;
 }
