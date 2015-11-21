@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<article class="grid about" itemprop="articleBody" itemscope itemtype="http://schema.org/CreativeWork">
+	<div class="whole medium-half large-two-thirds">
+		<img src="{{ '/images/portfolio/' | prepend: site.baseurl }}{{ page.image }}" />
+	</div>
+	<div class="whole medium-half large-third">
+		<h1 itemprop="name headline">{{ page.title }}</h1>
+
+		{% if page.date %}
+		<p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+		{% endif %}
+
+		{{ content }}
+
+	</div>
+</article>

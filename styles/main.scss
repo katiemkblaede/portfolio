@@ -1,4 +1,7 @@
-/* CSS main stylesheet */
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
 
 /* FONTS
  	font-family: "Montserrat", sans-serif;
@@ -85,6 +88,18 @@ img {
 	text-align: center;
 	text-decoration: none;
 }
+
+	.thumbs a img {
+		-webkit-filter: grayscale(1);
+		filter: grayscale(1);
+		transition: -webkit-filter 250ms ease,
+		            filter 250ms ease;
+	}
+
+	.thumbs a:hover img {
+		-webkit-filter: none;
+		filter: none;
+	}
 
 .about img {
 	margin-top: 1em;
