@@ -129,6 +129,10 @@ nav.main{
 	margin: 0 auto;
 }
 
+	.grid > * {
+		padding: 1em;
+	}
+
 img{
 	display: block;
 	width: 100%;
@@ -175,6 +179,10 @@ img{
 		header.main h2::after{
 			right: -155px;
 		}
+
+	.grid > * {
+		padding: 2em;
+	}
 }
 
 
