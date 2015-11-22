@@ -1,7 +1,7 @@
 <nav class="main">
-	{% assign pages = site.pages | sort:"nav" %}
+	{% assign pages = site.pages | sort:"order" %}
 	{% for page in pages %}
-		{% if page.nav %}
+		{% if page.order %}
 			{% if page.title %}
 				<a href="{{ page.url }}">{{ page.title }}</a>
 			{% endif %}
