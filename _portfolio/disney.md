@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: "Irish Blessing"
-image: irish-blessing.png
+title: "Disney Series"
+image: disney.png
 date: 2015-11-21 12:58:21 -0700
-categories: lettering digital print
+categories: sketch illustration series
 
-order: 0
+order: 5
 ---
 
 Here is the description about this thing, with Markdown support. So **this** is
