@@ -17,7 +17,7 @@ github_username:  maffity
 collections:
   portfolio:
     output: true
-    permalink: /foo/:collection/:path/
+    permalink: /:collection/:path/
 
 # Build settings
 markdown: kramdown
