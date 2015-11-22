@@ -8,24 +8,35 @@
 	font-family: "Lora", serif;
 */
 
+$sans: "Montserrat", sans-serif;
+$serif: "Lora", serif;
+
 /* COLORS
 	Turquoise:  #8dd8cf;
 	Dark Gray:  #5e6060;
 	Light Gray: #999;
 */
 
+$turquoise: #8dd8cf;
+$dark-gray: #5e6060;
+$light-gray: #999;
+$white: #fff;
+
+
 /**{
 	outline: 1px dotted rgba(255,0,0,.25);
 }*/
 
+$rem: 17.5px;
+
 html,
 body {
-	background-color: white;
+	background-color: $white;
 	background-image: url(../images/speckletone-bg.png);
 
-	color: #5e6060;
-	font-family: "Lora", serif;
-	font-size: 17.5px; /* 1rem */
+	color: $dark-gray;
+	font-family: $serif;
+	font-size: $rem; /* 1rem */
 	line-height: 1.5em;
 }
 
@@ -33,27 +44,26 @@ header.main {
 	margin: 2em auto;
 	max-width: 88.8889%;
 	width: 500px;
-}
 
-	header.main > * {
+	& > * {
 		color: transparent;
 		font-size: 0px!important;
 		line-height: 0px!important;
 	}
+}
 
 nav.main {
 	margin: 0 0.75rem;
 	max-width: calc(1280px - 3rem);
 
-	border-bottom: 2px solid #999;
-	border-top: 2px solid #999;
+	border-bottom: 2px solid $light-gray;
+	border-top: 2px solid $light-gray;
 
-	font-family: "Montserrat", sans-serif;
+	font-family: $sans;
 	text-align: center;
 	text-transform: uppercase;
-}
 
-	nav.main a {
+	a {
 		display: inline-block;
 		padding: 0.75em 1em;
 
@@ -61,20 +71,32 @@ nav.main {
 		text-decoration: none;
 
 		transition: color 250ms ease;
-	}
 
-		nav.main a:hover {
-			color: #8dd8cf;
+		&:hover {
+			color: $turquoise;
 		}
+	}
+}
+
+footer.main {
+	margin: 0 0.75em;
+	max-width: calc(1280px - 3rem);
+	padding: 1em 1em 0.5em;
+
+	border-top: 1px solid;
+
+	color: $light-gray;
+	text-align: center;
+}
 
 .grid {
 	margin: 0 auto;
 	max-width: 1280px;
-}
 
-	.grid > * {
+	& > * {
 		padding: 0.75em;
 	}
+}
 
 img {
 	display: block;
@@ -82,31 +104,31 @@ img {
 }
 
 .thumbs a {
-	color: #999;
+	color: $light-gray;
 	font-style: italic;
 	line-height: 3em;
 	text-align: center;
 	text-decoration: none;
-}
 
-	.thumbs a img {
+	img {
 		-webkit-filter: grayscale(1);
 		filter: grayscale(1);
 		transition: -webkit-filter 250ms ease,
-		            filter 250ms ease;
+						filter 250ms ease;
 	}
 
-	.thumbs a:hover img {
+	&:hover img {
 		-webkit-filter: none;
 		filter: none;
 	}
+}
 
 .about img {
 	margin-top: 1em;
 }
 
 h1 {
-	font-family: "Montserrat", sans-serif;
+	font-family: $sans;
 	font-size: 1.5rem;
 	font-weight: 400;
 	line-height: 1.25em;
@@ -131,11 +153,15 @@ p {
 
 	nav.main {
 		margin: 0 1.5rem;
-	}
 
-		nav.main a {
+		a {
 			padding: 0.75em 1.5em;
 		}
+	}
+
+	footer.main {
+		margin: 0 1.5em;
+	}
 
 	.grid > * {
 		padding: 1.5em;
@@ -151,6 +177,10 @@ p {
 /* Grid max-width */
 @media only screen and (min-width: 1280px) {
 	nav.main {
+		margin: 0 auto;
+	}
+
+	footer.main {
 		margin: 0 auto;
 	}
 }
