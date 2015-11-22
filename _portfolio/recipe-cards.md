@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "Irish Blessing"
-image: irish-blessing.png
+title: "Recipe Cards"
+image: recipe-cards.png
 date: 2015-11-21 12:58:21 -0700
-categories: lettering digital print
+categories: illustration digital print
 
 order: 0
 ---

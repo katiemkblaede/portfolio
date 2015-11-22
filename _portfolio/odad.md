@@ -1,11 +1,11 @@
 ---
 layout: portfolio
-title: "Irish Blessing"
-image: irish-blessing.png
+title: "One Drawing a Day"
+image: odad.png
 date: 2015-11-21 12:58:21 -0700
-categories: lettering digital print
+categories: sketch series
 
-order: 0
+order: 100
 ---
 
 Here is the description about this thing, with Markdown support. So **this** is

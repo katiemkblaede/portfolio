@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "Irish Blessing"
-image: irish-blessing.png
+title: "Wedding Website"
+image: wedding-website.png
 date: 2015-11-21 12:58:21 -0700
-categories: lettering digital print
+categories: illustration digital web
 
 order: 0
 ---

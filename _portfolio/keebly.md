@@ -1,9 +1,9 @@
 ---
 layout: portfolio
-title: "Irish Blessing"
-image: irish-blessing.png
+title: "Keebly Creations Branding"
+image: keebly.png
 date: 2015-11-21 12:58:21 -0700
-categories: lettering digital print
+categories: digital branding
 
 order: 0
 ---

@@ -6,7 +6,8 @@ order: 0
 ---
 
 <div class="grid thumbs">
-	{% for item in site.portfolio %}
+	{% assign items = site.portfolio | sort:"order" %}
+	{% for item in items %}
 	<a href="{{ item.url }}" class="whole smablet-half large-third">
 		<img src="{{ '/images/thumbnails/' | prepend: site.baseurl }}{{ item.image }}" />
 		<span>{{ item.title }}</span>
