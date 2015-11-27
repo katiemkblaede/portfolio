@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="grid about">
+<article class="grid page {{ page.classes }}">
 	{% if page.image %}
 	<div class="whole medium-half large-third">
 		<img src="{{ '/images/pages/' | prepend: site.baseurl }}{{ page.image }}" />

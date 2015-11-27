@@ -56,8 +56,8 @@ nav.main {
 	margin: 0 0.75rem;
 	max-width: calc(1280px - 3rem);
 
-	border-bottom: 2px solid $light-gray;
-	border-top: 2px solid $light-gray;
+	border-bottom: 1px solid $light-gray;
+	border-top: 1px solid $light-gray;
 
 	font-family: $sans;
 	text-align: center;
@@ -125,6 +125,10 @@ img {
 
 .about img {
 	margin-top: 1em;
+}
+
+.12-days-of-cookies img {
+	border: 1px solid $light-gray;
 }
 
 h1 {

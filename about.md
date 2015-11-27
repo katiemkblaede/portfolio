@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 image: about.jpg
 order: 1
+classes: about
 ---
 
 I’m Katie M. K. Blaede (pronounced “BLAY-dee”), a designer and illustrator. I’m on a mission to keep the tactile experience of design alive! I think it’s wrong that much of contemporary graphic design has become sterile and void of human touch. My goal is to form a personal connection with others through the experience of design and illustration.
