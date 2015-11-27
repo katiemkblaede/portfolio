@@ -2,7 +2,7 @@
 layout: redirect
 title: About
 permalink: /test/
-redirect: ./12-days-of-cookies
+redirect: /12-days-of-cookies
 image: about.jpg
 ---
 
