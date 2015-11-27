@@ -72,6 +72,10 @@ nav.main {
 
 		transition: color 250ms ease;
 
+		&::first-child {
+			color: #AE222B;
+		}
+
 		&:hover {
 			color: $turquoise;
 		}
