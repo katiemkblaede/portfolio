@@ -139,6 +139,11 @@ p {
 	line-height: 1.5em;
 }
 
+a {
+	color: $turquoise;
+	font-weight: 700;
+}
+
 /* Smablet-up screens (larger than most phones) */
 @media only screen and (min-width: 640px) {
 
