@@ -150,7 +150,7 @@ img {
 			opacity: 0.35;
 		}
 
-		&::before {
+		&::after {
 			content: "Download Recipe";
 			display: block;
 			width: 62.5%;
@@ -160,7 +160,7 @@ img {
 			transform: translate(-50%, -50%);
 
 			font-family: $sans;
-			font-size: 3em;
+			font-size: 2em;
 			line-height: 1.25em;
 			text-align: center;
 			text-transform: uppercase;
