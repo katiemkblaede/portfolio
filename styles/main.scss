@@ -163,6 +163,7 @@ img {
 			content: "Download Recipe";
 			opacity: 0;
 			transform: translate(-50%, -50%);
+			transition: opacity 250ms ease;
 		}
 
 		&:hover {
