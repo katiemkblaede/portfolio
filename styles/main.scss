@@ -139,13 +139,15 @@ img {
 .cookie-downloads {
 	a {
 		background-color: #F37070;
+		position: relative;
+		display: block;
 
 		img {
 			transition: opacity 250ms ease;
 		}
 
 		&:hover img {
-			opacity: 0.25;
+			opacity: 0.35;
 		}
 
 		&::before {
@@ -156,7 +158,12 @@ img {
 			top: 50%;
 			left: 50%;
 			transform: translate(-50%, -50%);
+
+			font-family: $sans;
 			font-size: 3em;
+			line-height: 1.25em;
+			text-align: center;
+			text-transform: uppercase;
 			color: white;
 		}
 	}
