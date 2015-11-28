@@ -10,7 +10,7 @@ order: 0
 <div class="grid">
 
   <div class="whole medium-half large-third">
-    <img src="/images/pages/12-days-of-cookies/0-BakingTipsPromo.png"
+    <img src="/images/pages/12-days-of-cookies/0-BakingTipsPromo.png" />
   </div>
 
   <div class="whole medium-half large-two-thirds">
