@@ -151,11 +151,13 @@ img {
 			left: 50%;
 			position: absolute;
 			top: 50%;
-			width: 62.5%;
+			// width: 62.5%;
 
 			color: white;
 			font-family: $sans;
 			font-size: 2em;
+			font-weight: 700;
+			letter-spacing: 0.15em;
 			line-height: 1.25em;
 			text-align: center;
 			text-transform: uppercase;
