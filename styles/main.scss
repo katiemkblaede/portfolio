@@ -136,6 +136,32 @@ img {
 	border: 1px solid #CBC5C0;
 }
 
+.cookie-downloads {
+	a {
+		background-color: #F37070;
+
+		img {
+			transition: opacity 250ms ease;
+		}
+
+		&:hover img {
+			opacity: 0.25;
+		}
+
+		&::before {
+			content: "Download Recipe";
+			display: block;
+			width: 62.5%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			font-size: 3em;
+			color: white;
+		}
+	}
+}
+
 h1 {
 	font-family: $sans;
 	font-size: 1.5rem;
