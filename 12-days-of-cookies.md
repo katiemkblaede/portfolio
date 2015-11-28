@@ -7,8 +7,7 @@ classes: twelve-days-of-cookies
 order: 0
 ---
 
-<div class="grid">
-
+<div class="grid twelve-days-of-cookies">
   <div class="whole medium-half large-third">
     <img src="/images/pages/12-days-of-cookies/0-BakingTipsPromo.png" />
   </div>
@@ -20,7 +19,7 @@ order: 0
   </div>
 </div>
 
-<div class="grid cookie-downloads">
+<div class="grid cookie-downloads twelve-days-of-cookies">
   <div class="whole medium-half large-third">
     <a href="/downloads/12-days-of-cookies/1-TastesLikeChristmas.pdf" download="KatieMKBlaede-TastesLikeChristmasCookies.pdf">
       <img src="/images/pages/12-days-of-cookies/1-TastesLikeChristmas.gif" />
