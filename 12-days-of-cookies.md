@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 12 Days of Cookies
-description: "Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES."
+excerpt: "Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES."
 permalink: /12-days-of-cookies/
 image: 12-days-of-cookies/2-Snickerdoodles.gif
 image-width: 640
