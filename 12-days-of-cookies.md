@@ -24,8 +24,10 @@ order: 0
     <a href="/downloads/12-days-of-cookies/1-TastesLikeChristmas.pdf" download="KatieMKBlaede-TastesLikeChristmasCookies.pdf">
       <img src="/images/pages/12-days-of-cookies/1-TastesLikeChristmas.gif" />
     </a>
-      <a href="/downloads/12-days-of-cookies/2-Snickderdoodles.pdf" download="KatieMKBlaede-Snickerdoodles.pdf">
-        <img src="/images/pages/12-days-of-cookies/2-Snickerdoodles.gif" />
-      </a>
+  </div>
+  <div class="whole medium-half large-third">
+    <a href="/downloads/12-days-of-cookies/2-Snickderdoodles.pdf" download="KatieMKBlaede-Snickerdoodles.pdf">
+      <img src="/images/pages/12-days-of-cookies/2-Snickerdoodles.gif" />
+    </a>
   </div>
 </div>
