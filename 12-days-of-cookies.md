@@ -26,7 +26,7 @@ order: 0
     </a>
   </div>
   <div class="whole medium-half large-third">
-    <a href="/downloads/12-days-of-cookies/2-Snickderdoodles.pdf" download="KatieMKBlaede-Snickerdoodles.pdf">
+    <a href="/downloads/12-days-of-cookies/2-Snickerdoodles.pdf" download="KatieMKBlaede-Snickerdoodles.pdf">
       <img src="/images/pages/12-days-of-cookies/2-Snickerdoodles.gif" />
     </a>
   </div>
