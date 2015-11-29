@@ -2,7 +2,7 @@
 layout: default
 title: 12 Days of Cookies
 permalink: /12-days-of-cookies/
-image: 12-days-of-cookies/0-BakingTipsPromo.png
+image: 12-days-of-cookies/2-Snickerdoodles.gif
 classes: twelve-days-of-cookies
 order: 0
 ---
