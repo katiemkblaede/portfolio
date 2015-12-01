@@ -34,7 +34,7 @@ image-height: 640
 		<a href="/downloads/12-days-of-cookies/2-Snickerdoodles.pdf" download="KatieMKBlaede-Snickerdoodles.pdf">
 			<img src="/images/pages/12-days-of-cookies/2-Snickerdoodles.gif" />
 		</a>
-	</div>>
+	</div>
 	<div class="whole medium-half large-third">
 		<a href="/downloads/12-days-of-cookies/3-ChocolateRaspberry.pdf" download="KatieMKBlaede-ChocolateRaspberryCookies.pdf">
 			<img src="/images/pages/12-days-of-cookies/3-ChocolateRaspberry.gif" />
