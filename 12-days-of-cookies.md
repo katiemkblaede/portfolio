@@ -7,7 +7,7 @@ title: 12 Days of Cookies
 excerpt: "Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES."
 permalink: /12-days-of-cookies/
 
-image: 12-days-of-cookies/3-ChocolateRaspberry.gif
+image: 12-days-of-cookies/4-GingerMolasses.gif
 image-width: 640
 image-height: 640
 ---
@@ -38,6 +38,11 @@ image-height: 640
 	<div class="whole medium-half large-third">
 		<a href="/downloads/12-days-of-cookies/3-ChocolateRaspberry.pdf" download="KatieMKBlaede-ChocolateRaspberryCookies.pdf">
 			<img src="/images/pages/12-days-of-cookies/3-ChocolateRaspberry.gif" />
+		</a>
+	</div>
+	<div class="whole medium-half large-third">
+		<a href="/downloads/12-days-of-cookies/4-GingerMolasses.pdf" download="KatieMKBlaede-GingerMolasses.pdf">
+			<img src="/images/pages/12-days-of-cookies/4-GingerMolasses.gif" />
 		</a>
 	</div>
 </div>
