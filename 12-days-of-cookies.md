@@ -7,7 +7,7 @@ title: 12 Days of Cookies
 excerpt: "Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES."
 permalink: /12-days-of-cookies/
 
-image: 12-days-of-cookies/6-PBWhiteChocPretzel.gif
+image: 12-days-of-cookies/7-Sugar.gif
 image-width: 640
 image-height: 640
 ---
@@ -53,6 +53,11 @@ image-height: 640
 	<div class="whole medium-half large-third">
 		<a href="/downloads/12-days-of-cookies/6-PeanutButterWhiteChocolatePretzel.pdf" download="KatieMKBlaede-PBWhiteChocPretzelCookies.pdf">
 			<img src="/images/pages/12-days-of-cookies/6-PBWhiteChocPretzel.gif" />
+		</a>
+	</div>
+	<div class="whole medium-half large-third">
+		<a href="/downloads/12-days-of-cookies/7-Sugar.pdf" download="KatieMKBlaede-SugarCookies.pdf">
+			<img src="/images/pages/12-days-of-cookies/7-Sugar.gif" />
 		</a>
 	</div>
 </div>
