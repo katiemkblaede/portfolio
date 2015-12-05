@@ -7,7 +7,7 @@ title: 12 Days of Cookies
 excerpt: "Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES."
 permalink: /12-days-of-cookies/
 
-image: 12-days-of-cookies/7-Sugar.gif
+image: 12-days-of-cookies/8-OatmealRumRaisin.gif
 image-width: 640
 image-height: 640
 ---
@@ -21,6 +21,8 @@ image-height: 640
 		<p>Happy holidays! I am thrilled to share with you my latest project, combining four of my favorite things: design, illustration, Christmas, and COOKIES. From November 28 to December 9, 2015, I will release a new 4&Prime;&times;6&Prime; cookie recipe card once a day for 12 days, which you can download on this page for free by clicking or tapping the graphic for each recipe. <!-- (Do you have Christmas shopping to do? Are you just impatient? [Visit my store](/store) and purchase the recipe card pack now!) --></p>
 
 		<p>In addition, you can <a href="/downloads/12-days-of-cookies/0-CookieBakingTips.pdf" download="KatieMKBlaede-CookieBakingTips.pdf">download a card with baking tips</a> to make your cookies amazing. Follow <a href="https://www.instagram.com/katiemkblaede" target="_blank">@katiemkblaede</a> on Instagram to know immediately when the next recipe is available.</p>
+
+		<p><em>Update December 5, 2015</em>: I have re-uploaded recipe cards to include temperature in degrees Celsius. I also made some minor tweaks to oven temperature and baking times.</p>
 	</div>
 </div>
 
@@ -58,6 +60,11 @@ image-height: 640
 	<div class="whole medium-half large-third">
 		<a href="/downloads/12-days-of-cookies/7-Sugar.pdf" download="KatieMKBlaede-SugarCookies.pdf">
 			<img src="/images/pages/12-days-of-cookies/7-Sugar.gif" />
+		</a>
+	</div>
+	<div class="whole medium-half large-third">
+		<a href="/downloads/12-days-of-cookies/8-OatmealRumRaisin.pdf" download="KatieMKBlaede-OatmealRumRaisinCookies.pdf">
+			<img src="/images/pages/12-days-of-cookies/8-OatmealRumRaisin.gif" />
 		</a>
 	</div>
 </div>
