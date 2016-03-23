@@ -4,22 +4,22 @@
  * http://foundation.zurb.com/sites/docs/v/5.5.3/media-queries.html */
 
 // Here we define the breakpoints which will become the upper border for each media size.
-// The function em-calc() calculates the em-value from a px-value.
-$small-breakpoint:   640px  !default;
-$smablet-breakpoint: 768px  !default;
-$medium-breakpoint:  1024px !default;
-$grid-breakpoint:    1280px !default;
-$large-breakpoint:   1440px !default;
-$xlarge-breakpoint:  1920px !default;
+// The function rem-calc() calculates the em-value from a px-value.
+$small-breakpoint:   rem-calc(640)  !default;
+$smablet-breakpoint: rem-calc(768)  !default;
+$medium-breakpoint:  rem-calc(1024) !default;
+$grid-breakpoint:    rem-calc(1280) !default;
+$large-breakpoint:   rem-calc(1440) !default;
+$xlarge-breakpoint:  rem-calc(1920) !default;
 
 // Here we define the lower and upper bounds for each media size
 $small-range:   (0, $small-breakpoint) !default; /* 0, 640px */
-$medium-range:  ($small-breakpoint   + 1, $smablet-breakpoint) !default; /* 641px, 768px */
-$smablet-range: ($smablet-breakpoint + 1, $medium-breakpoint)  !default; /* 769px, 1024px */
-$large-range:   ($medium-breakpoint  + 1, $large-breakpoint)   !default; /* 1025px, 1440px */
-$grid-range:    ($grid-breakpoint,        $grid-breakpoint)    !default; /* 1280px, 1280px */
-$xlarge-range:  ($large-breakpoint   + 1, $xlarge-breakpoint)  !default; /* 1441px, 1920px */
-$xxlarge-range: ($xlarge-breakpoint  + 1, 99999999)   !default; /* 1921px, ... */
+$medium-range:  ($small-breakpoint   + rem-calc(1), $smablet-breakpoint) !default; /* 641px, 768px */
+$smablet-range: ($smablet-breakpoint + rem-calc(1), $medium-breakpoint)  !default; /* 769px, 1024px */
+$large-range:   ($medium-breakpoint  + rem-calc(1), $large-breakpoint)   !default; /* 1025px, 1440px */
+$grid-range:    ($grid-breakpoint,                  $grid-breakpoint)    !default; /* 1280px, 1280px */
+$xlarge-range:  ($large-breakpoint   + rem-calc(1), $xlarge-breakpoint)  !default; /* 1441px, 1920px */
+$xxlarge-range: ($xlarge-breakpoint  + rem-calc(1), rem-calc(99999999))   !default; /* 1921px, ... */
 
 // Media Queries
 $screen: "only screen" !default;
