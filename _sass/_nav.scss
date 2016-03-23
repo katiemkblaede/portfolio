@@ -1,0 +1,41 @@
+nav.main {
+	margin: 0 0.75rem;
+	max-width: calc(1280px - 1.5rem);
+
+	border-bottom: 1px solid $light-gray;
+	border-top: 1px solid $light-gray;
+
+	font-family: $sans;
+	text-align: center;
+	text-transform: uppercase;
+
+	@media #{$medium-up} {
+		// margin: 0 1.5rem;
+	}
+
+	@media #{$grid-up} {
+		margin: 0 auto;
+	}
+
+	a {
+		display: inline-block;
+		padding: 0.75em 1em;
+
+		color: inherit;
+		text-decoration: none;
+
+		transition: color 250ms ease;
+
+		@media #{$medium-up} {
+			padding: 0.75em 1.5em;
+		}
+
+		&:first-child {
+			color: #AE222B;
+		}
+
+		&:hover {
+			color: $turquoise;
+		}
+	}
+}

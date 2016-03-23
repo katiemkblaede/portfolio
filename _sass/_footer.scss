@@ -1,0 +1,18 @@
+footer.main {
+	margin: 0 0.75em;
+	max-width: calc(1280px - 3rem);
+	padding: 1em 1em 0.5em;
+
+	border-top: 1px solid;
+
+	color: $light-gray;
+	text-align: center;
+
+	@media #{$medium-up} {
+		margin: 0 1.5em;
+	}
+
+	@media #{$grid-up} {
+		margin: 0 auto;
+	}
+}

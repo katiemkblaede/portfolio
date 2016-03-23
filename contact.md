@@ -21,16 +21,16 @@ image: about.jpg
 		</select>
 	</div> -->
 
-	<div class="whole medium-half">
+	<div class="whole">
 		<input type="text" name="name" placeholder="Name" required autofocus />
 		<input type="text" name="not-human" style="display: none;" />
 	</div>
 
-	<div class="whole medium-quarter">
+	<div class="whole large-half">
 		<input type="email" name="email" placeholder="Email" required />
 	</div>
 
-	<div class="whole medium-quarter">
+	<div class="whole large-half">
 		<input type="tel" name="tel" placeholder="Phone" />
 	</div>
 

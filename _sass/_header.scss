@@ -1,0 +1,15 @@
+header.main {
+	margin: 2em auto;
+	max-width: 88.8889%;
+	width: 500px;
+
+	@media #{$medium-up} {
+		margin: 3em auto;
+	}
+
+	& > * {
+		color: transparent;
+		font-size: 0px!important;
+		line-height: 0px!important;
+	}
+}

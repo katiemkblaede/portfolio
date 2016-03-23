@@ -14,6 +14,12 @@
 @import 'media';
 @import 'grid';
 
+@import 'header';
+@import 'nav';
+@import 'footer';
+
+@import 'contact';
+
 html,
 body {
 	background-color: $white;
@@ -23,83 +29,6 @@ body {
 	font-family: $serif;
 	font-size: $rem; /* 1rem */
 	line-height: 1.5em;
-}
-
-header.main {
-	margin: 2em auto;
-	max-width: 88.8889%;
-	width: 500px;
-
-	@media #{$medium-up} {
-		margin: 3em auto;
-	}
-
-	& > * {
-		color: transparent;
-		font-size: 0px!important;
-		line-height: 0px!important;
-	}
-}
-
-nav.main {
-	margin: 0 0.75rem;
-	max-width: calc(1280px - 3rem);
-
-	border-bottom: 1px solid $light-gray;
-	border-top: 1px solid $light-gray;
-
-	font-family: $sans;
-	text-align: center;
-	text-transform: uppercase;
-
-	@media #{$medium-up} {
-		margin: 0 1.5rem;
-	}
-
-	@media #{$grid-up} {
-		margin: 0 auto;
-	}
-
-	a {
-		display: inline-block;
-		padding: 0.75em 1em;
-
-		color: inherit;
-		text-decoration: none;
-
-		transition: color 250ms ease;
-
-		@media #{$medium-up} {
-			padding: 0.75em 1.5em;
-		}
-
-		&:first-child {
-			color: #AE222B;
-		}
-
-		&:hover {
-			color: $turquoise;
-		}
-	}
-}
-
-footer.main {
-	margin: 0 0.75em;
-	max-width: calc(1280px - 3rem);
-	padding: 1em 1em 0.5em;
-
-	border-top: 1px solid;
-
-	color: $light-gray;
-	text-align: center;
-
-	@media #{$medium-up} {
-		margin: 0 1.5em;
-	}
-
-	@media #{$grid-up} {
-		margin: 0 auto;
-	}
 }
 
 img {
@@ -201,4 +130,72 @@ a {
 	color: $turquoise;
 	font-weight: 700;
 	text-decoration: none;
+}
+
+input[type=color],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=range],
+input[type=search],
+input[type=tel],
+input[type=text],
+input[type=time],
+input[type=url],
+input[type=week],
+textarea {
+	display: block;
+	max-width: 100%;
+	padding: 0.25em;
+	width: 100%;
+
+	background-color: transparent;
+
+	border: 1px solid $dark-gray;
+
+	color: inherit;
+	font: inherit;
+
+	&:focus {
+		border-color: $turquoise;
+
+		box-shadow: 0px 0px 2px 0px $turquoise;
+
+		outline: none;
+	}
+}
+
+textarea {
+	height: 8em;
+}
+
+input[type=submit],
+button[type=submit] {
+	float: right;
+	padding: 0.5em 1em;
+
+	background-color: $turquoise;
+
+	border: 1px solid $dark-gray;
+
+	color: $white;
+	font: inherit;
+
+	&:focus {
+		box-shadow: 0px 0px 8px 0px $turquoise;
+
+		outline: none;
+	}
+
+	&:active {
+		box-shadow: none;
+		
+		background-color: darken($turquoise, 10%);
+
+		outline: none;
+	}
+
 }
