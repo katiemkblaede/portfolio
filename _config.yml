@@ -23,4 +23,4 @@ collections:
 markdown: kramdown
 permalink: pretty
 sass:
-  # style: compressed
+  style: compressed
