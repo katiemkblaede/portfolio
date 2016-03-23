@@ -1,0 +1,44 @@
+---
+layout: page
+order: 2
+classes: contact
+
+title: Contact
+permalink: /contact/
+image: about.jpg
+---
+
+<form action="http://forms.cassidyjam.es" method="POST" class="grid">
+	<input type="hidden" name="ignore" value="not-human" />
+	<input type="hidden" name="success" value="contact-success" />
+	<input type="hidden" name="error" value="contact" />
+
+	<!-- <div class="whole">
+		<select name="subject">
+			<option value="Quote">Request a Quote</option>
+			<option value="Website Issue">Report a Website Issue</option>
+			<option value="Other Inquiry">Other</option>
+		</select>
+	</div> -->
+
+	<div class="whole medium-half">
+		<input type="text" name="name" placeholder="Name" required autofocus />
+		<input type="text" name="not-human" style="display: none;" />
+	</div>
+
+	<div class="whole medium-quarter">
+		<input type="email" name="email" placeholder="Email" required />
+	</div>
+
+	<div class="whole medium-quarter">
+		<input type="tel" name="tel" placeholder="Phone" />
+	</div>
+
+	<div class="whole">
+		<textarea name="note" placeholder="Comment"></textarea>
+	</div>
+
+	<div class="whole">
+		<input type="submit" value="Send">
+	</div>
+</form>

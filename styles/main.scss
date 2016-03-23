@@ -3,31 +3,16 @@
 # only Main files contain this front matter, not partials.
 ---
 
-/* FONTS
- 	font-family: "Montserrat", sans-serif;
-	font-family: "Lora", serif;
-*/
-
-$sans: "Montserrat", sans-serif;
-$serif: "Lora", serif;
-
-/* COLORS
-	Turquoise:  #8dd8cf;
-	Dark Gray:  #5e6060;
-	Light Gray: #999;
-*/
-
-$turquoise: #8dd8cf;
-$dark-gray: #5e6060;
-$light-gray: #999;
-$white: #fff;
-
+// main.scss
 
 /**{
 	outline: 1px dotted rgba(255,0,0,.25);
 }*/
 
-$rem: 17.5px;
+@import 'vars';
+@import 'functions';
+@import 'media';
+@import 'grid';
 
 html,
 body {
@@ -44,6 +29,10 @@ header.main {
 	margin: 2em auto;
 	max-width: 88.8889%;
 	width: 500px;
+
+	@media #{$medium-up} {
+		margin: 3em auto;
+	}
 
 	& > * {
 		color: transparent;
@@ -63,6 +52,14 @@ nav.main {
 	text-align: center;
 	text-transform: uppercase;
 
+	@media #{$medium-up} {
+		margin: 0 1.5rem;
+	}
+
+	@media #{$grid-up} {
+		margin: 0 auto;
+	}
+
 	a {
 		display: inline-block;
 		padding: 0.75em 1em;
@@ -71,6 +68,10 @@ nav.main {
 		text-decoration: none;
 
 		transition: color 250ms ease;
+
+		@media #{$medium-up} {
+			padding: 0.75em 1.5em;
+		}
 
 		&:first-child {
 			color: #AE222B;
@@ -91,15 +92,13 @@ footer.main {
 
 	color: $light-gray;
 	text-align: center;
-}
 
-.grid {
-	margin: 0 auto;
-	max-width: 1280px;
-	clear: both;
+	@media #{$medium-up} {
+		margin: 0 1.5em;
+	}
 
-	& > * {
-		padding: 0.75em;
+	@media #{$grid-up} {
+		margin: 0 auto;
 	}
 }
 
@@ -202,52 +201,6 @@ a {
 	color: $turquoise;
 	font-weight: 700;
 	text-decoration: none;
-}
-
-/* Smablet-up screens (larger than most phones) */
-@media only screen and (min-width: 640px) {
-
-}
-
-
-/* Medium-up screens (larger than a small tablet) */
-@media only screen and (min-width: 768px) {
-	header.main {
-		margin: 3em auto;
-	}
-
-	nav.main {
-		margin: 0 1.5rem;
-
-		a {
-			padding: 0.75em 1.5em;
-		}
-	}
-
-	footer.main {
-		margin: 0 1.5em;
-	}
-
-	.grid > * {
-		padding: 1.5em;
-	}
-}
-
-
-/* Large-up screens (larger than an iPad landscape) */
-@media only screen and (min-width: 1025px) {
-
-}
-
-/* Grid max-width */
-@media only screen and (min-width: 1280px) {
-	nav.main {
-		margin: 0 auto;
-	}
-
-	footer.main {
-		margin: 0 auto;
-	}
 }
 
 /* XLarge-up screens (larger than 1440x900) */
