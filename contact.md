@@ -10,8 +10,8 @@ image: about.jpg
 
 <form action="http://forms.cassidyjam.es" method="POST" class="grid">
 	<input type="hidden" name="ignore" value="not-human" />
-	<input type="hidden" name="success" value="contact-success" />
-	<input type="hidden" name="error" value="contact" />
+	<input type="hidden" name="success" value="/" />
+	<input type="hidden" name="error" value="contact/" />
 
 	<!-- <div class="whole">
 		<select name="subject">
