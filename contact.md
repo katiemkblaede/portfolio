@@ -12,6 +12,7 @@ image: about.jpg
 	<input type="hidden" name="ignore" value="not-human" />
 	<input type="hidden" name="success" value="/" />
 	<input type="hidden" name="error" value="contact/" />
+	<input type="hidden" name="site" value="www.katiemkblaede.com" />
 
 	<!-- <div class="whole">
 		<select name="subject">
