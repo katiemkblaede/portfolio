@@ -13,7 +13,13 @@ Unless otherwise noted, please assume I would like the exact item/brand I have l
     {% if item.link %}<a href="{{ item.link }}" target="_blank">{% endif %}
       {{ item.title }}
     {% if item.link %}</a>{% endif %}
-    <span>{{ item.price }}</span>
+    <span>
+      {% if item.pretty-price %}
+        {{ item.pretty-price }}
+      {% else %}
+        ${{ item.price }}
+      {% endif %}
+    </span>
   </h3>
   {{ item }}
 {% endfor %}
