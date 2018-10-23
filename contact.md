@@ -3,10 +3,11 @@ layout: page
 order: 2
 classes: contact
 
-title: Contact
 permalink: /contact/
 image: about.jpg
 ---
+
+# Contact
 
 <form action="http://forms.cassidyjam.es" method="POST" class="grid">
 	<input type="hidden" name="ignore" value="not-human" />
