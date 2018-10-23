@@ -32,7 +32,6 @@ animation, baking and cooking, crafting and sewing, Disney/Disneyland, drawing a
     margin-left: auto;
     margin-right: auto;
     max-width: 640px;
-    width: 80%;
   }
 
   h2 {
