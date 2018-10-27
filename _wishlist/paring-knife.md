@@ -1,5 +1,5 @@
 ---
 title: High-quality paring knife
-price: 15
+price: 16
 pretty-price: $15+
 ---

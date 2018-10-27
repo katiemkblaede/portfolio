@@ -1,7 +1,7 @@
 ---
 title: High-quality 8-inch chef’s knife
 link:
-price: 50
+price: 51
 pretty-price: $50+
 ---
 
