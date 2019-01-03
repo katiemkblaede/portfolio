@@ -1,5 +1,5 @@
 ---
-title: Escali Arti Metallic Glass Kitchen Scale
-price: 30
-link: https://www.target.com/p/escali-arti-metallic-glass-kitchen-scale-tan/-/A-53328288
+title: Letterfolk Additional White Character Set
+price: 14
+link: https://www.letterfolk.com/collections/letter-sets/products/additional-character-set
 ---
