@@ -1,6 +1,6 @@
 ---
 title: Mustang Dining Chair
-price: 127
+price: 124
 link: https://www.wayfair.com/furniture/pdp/wade-logan-mustang-dining-chair-wlgn2151.html?piid=19523735
 ---
 
