@@ -26,7 +26,7 @@ Unless otherwise noted, please assume I would like the exact item/brand I have l
 
 ## Gift Cards
 
-Alibris, Gap/Old Navy, Google Play, IKEA, Michaels, Sweetapolita, Target, Tattered Cover, World Market
+Alibris, Home Depot, IKEA, JOANN, Lowe’s, Michaels, Target, Tattered Cover, World Market
 
 ## Surprise me with things I’d like!
 
@@ -57,4 +57,3 @@ animation, baking and cooking, crafting and sewing, Disney/Disneyland, drawing a
     margin-top: 0;
   }
 </style>
-
