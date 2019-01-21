@@ -6,4 +6,4 @@ price: 249.99
 pretty-price: $230–250
 ---
 
-There is an [open box version]({{page.link}}) and a [new one]({{page.new}}). If the open box is available, I'd love for you to save some money!
+Currently unavailable. :( There is an [open box version]({{page.link}}) and a [new one]({{page.new}}). If the open box is available, I'd love for you to save some money!
