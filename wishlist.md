@@ -11,7 +11,7 @@ Unless otherwise noted, please assume I would like the exact item/brand I have l
 {% for item in wishlist %}
   <h3>
     {% if item.link %}<a href="{{ item.link }}" target="_blank">{% endif %}
-      {{ item.title }}
+      {{ item.title | markdownify }}
     {% if item.link %}</a>{% endif %}
     <span>
       {% if item.pretty-price %}
