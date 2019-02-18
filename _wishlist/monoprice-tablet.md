@@ -1,5 +1,5 @@
 ---
-title: Monoprice MP 22" IPS FHD Graphic Pen Display
+title: Monoprice MP 15.6" IPS FHD Graphic Pen Display
 link: https://www.monoprice.com/product?p_id=33408
 new: https://www.monoprice.com/product?p_id=21826
 price: 349.99
