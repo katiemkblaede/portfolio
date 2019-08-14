@@ -24,7 +24,7 @@ Unless otherwise noted, please assume I would like the exact item/brand I have l
 
 ## Gift Cards
 
-Alibris, Home Depot, IKEA, JOANN, Lowe’s, Michaels, Target, Tattered Cover, World Market
+Alibris, IKEA, Michaels, Target, Tattered Cover, World Market
 
 ## Surprise me with things I’d like!
 
