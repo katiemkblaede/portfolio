@@ -28,7 +28,7 @@ Alibris, IKEA, Michaels, Target, Tattered Cover, World Market
 
 ## Surprise me with things I’d like!
 
-animation, baking and cooking, crafting and sewing, Disney/Disneyland, drawing and illustration, graphic design, small space/indoor gardening, yoga
+animation, baking and cooking, crafting and sewing, Disney/Disneyland, drawing and illustration, graphic design, house plants, yoga
 
 <style>
   .page div.whole {
