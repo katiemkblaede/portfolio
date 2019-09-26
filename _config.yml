@@ -13,15 +13,11 @@ description: Design and illustration portfolio of Katie M. K. Blaede
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.katiemkblaede.com" # the base hostname & protocol for your site
 twitter_username: katiemkblaede
-github_username:  maffity
+github_username:  katiemkblaede
 
 collections:
   portfolio:
     title: Portfolio
-    output: true
-    permalink: /:collection/:path/
-  wishlist:
-    title: Wishlist
     output: true
     permalink: /:collection/:path/
 
