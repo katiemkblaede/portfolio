@@ -9,7 +9,7 @@ Unless otherwise noted, please assume I would like the exact item/brand I have l
 
 ## Books
 
-- [_Spider-Man: Into the Spider-Verse - The Art of the Movie_](https://www.alibris.com/Spider-Man-Into-the-Spider-Verse-The-Art-of-the-Movie-Ramin-Zahed/book/41207677) **$30+**
+- [_Spider-Man: Into the Spider-Verse - The Art of the Movie_](https://www.alibris.com/Spider-Man-Into-the-Spider-Verse-The-Art-of-the-Movie-Ramin-Zahed/book/41207677) **$20+**
 - [_Alexander Girard_](https://www.alibris.com/Alexander-Girard-Todd-Oldham/book/17907387) **$20+**
 
 ## Kitchen
