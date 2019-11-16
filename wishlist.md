@@ -33,6 +33,7 @@ Used is appreciated!
 
 - [iPad Pro 10.5"](https://swappa.com/buy/apple-ipad-pro-105) **$300+** with first-generation [Apple Pencil](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2380057.m570.l1313.TR1.TRC0.A0.H0.Xfirst+generation+apple+pencil.TRS0&_nkw=first+generation+apple+pencil&_sacat=0) **$65+**
 - [Studio Ghibli: The Complete Collection Blu-Ray Box Set](https://www.ghiblistudios.com/shop/the-complete-collection-blu-ray-dvd-box-set/) **$120**
+- [Classes/lessons for Swallow Hill Music School](https://swallowhillmusic.org/music-school/)
 - [Candylab Woodie Redux](https://www.candylabtoys.com/collections/americana/products/woodie-redux) **$35**
 - [Malibu Beach Tower](https://www.candylabtoys.com/collections/stac/products/malibu-beach-tower) **$35**
 - [Croc Pile in Mini Multi](https://www.areaware.com/products/croc-pile?variant=13691677278243) **$35**
