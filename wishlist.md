@@ -5,13 +5,13 @@ order: 3
 
 # Wishlist
 
+**Anything that you can purchase vintage/used/thrifted or diy/homemade is preferred!**
+
 ## Art
 
 - [_Peter Pan_ Art Print](https://www.gallerynucleus.com/detail/23540/) **$95**
 
 ## Books
-
-Used is preferred!
 
 - [_Alexander Girard_](https://www.alibris.com/Alexander-Girard-Todd-Oldham/book/17907387) **$20+**
 
@@ -32,6 +32,7 @@ Used is preferred!
 - [Classes/lessons for Swallow Hill Music School](https://swallowhillmusic.org/music-school/)
 - [Croc Pile in Mini Multi](https://www.areaware.com/products/croc-pile?variant=13691677278243) **$35**
 - [Eames Textile House of Cards](https://shop.eamesoffice.com/toys/house-of-cards/textile-house-of-cards.html) **$15**
+- Vintage Christmas ornaments (I like the [wooden ones](https://www.ebay.com/sch/33838/i.html?_from=R40&_nkw=vintage+wooden+ornaments) and ones like [Shiny Brite](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1311.R5.TR12.TRC2.A0.H0.Xshiny+brite.TRS0&_nkw=shiny+brite+vintage+ornaments&_sacat=33838&LH_TitleDesc=0&_osacat=33838&_odkw=vintage+wooden+ornaments))
 
 ## Vinyl
 
@@ -72,7 +73,7 @@ Most of all, I would love to receive _your_ favorite album! Many of the items be
 
 ## Gift Cards
 
-Alibris, IKEA, Joann, Michaels, Target, Tattered Cover, World Market
+Alibris, IKEA, Joann, Michaels, Target, Tattered Cover
 
 ## Surprise me with things I’d like!
 
