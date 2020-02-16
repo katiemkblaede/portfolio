@@ -18,7 +18,6 @@ order: 3
 ## Kitchen
 
 - [Rosie Floral Enamel Tea Kettle](https://www.worldmarket.com/product/rosie-floral-enamel-tea-kettle.do) **$40**
-- [Sur La Table Garlic Peeler](https://www.surlatable.com/sur-la-table-garlic-rollers/PRO-3418241.html) **$8**
 
 ## Shoes
 
@@ -31,7 +30,6 @@ order: 3
 - Studio Ghibli: The Complete Collection **Blu-Ray** Box Set
 - [Classes/lessons for Swallow Hill Music School](https://swallowhillmusic.org/music-school/)
 - [Croc Pile in Mini Multi](https://www.areaware.com/products/croc-pile?variant=13691677278243) **$35**
-- [Eames Textile House of Cards](https://shop.eamesoffice.com/toys/house-of-cards/textile-house-of-cards.html) **$15**
 - Vintage Christmas ornaments (I like the [wooden ones](https://www.ebay.com/sch/33838/i.html?_from=R40&_nkw=vintage+wooden+ornaments) and ones like [Shiny Brite](https://www.ebay.com/sch/i.html?_from=R40&_trksid=p2334524.m570.l1311.R5.TR12.TRC2.A0.H0.Xshiny+brite.TRS0&_nkw=shiny+brite+vintage+ornaments&_sacat=33838&LH_TitleDesc=0&_osacat=33838&_odkw=vintage+wooden+ornaments))
 
 ## Vinyl
