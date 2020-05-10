@@ -7,6 +7,8 @@ order: 3
 
 **Anything that you can purchase vintage/used/thrifted or diy/homemade is preferred!**
 
+Find more on my [GiftHero Wish List](https://www.gifthero.com/list/2f57c67c-a409-4634-a282-5bfc00f9bec4).
+
 ## Art
 
 - [_Peter Pan_ Art Print](https://www.gallerynucleus.com/detail/23540/) **$95**
