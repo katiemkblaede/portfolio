@@ -1,6 +1,7 @@
 ---
 layout: page
 order: 3
+redirect_to: https://www.gifthero.com/katieblaede
 ---
 
 # Wishlist
