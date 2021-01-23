@@ -26,3 +26,6 @@ markdown: kramdown
 permalink: pretty
 sass:
   style: compressed
+
+plugins:
+  - jekyll-redirect-from
