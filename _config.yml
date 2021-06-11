@@ -11,7 +11,7 @@ author: Katie M. K. Blaede
 email: hello@katiemkblaede.com
 description: Design and illustration portfolio of Katie M. K. Blaede
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.katiemkblaede.com" # the base hostname & protocol for your site
+url: "https://katiemkblaede.com" # the base hostname & protocol for your site
 twitter_username: katiemkblaede
 github_username:  katiemkblaede
 

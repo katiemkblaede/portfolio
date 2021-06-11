@@ -3,8 +3,8 @@ layout: page
 order: 1
 classes: about
 
-permalink: /about/
 image: about.jpg
+redirect_from: /about/
 ---
 
 # About
