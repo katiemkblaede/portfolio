@@ -1,5 +1,9 @@
-_site
+*~
+unsaved\ file*
+
+_site/
+vendor/
 .sass-cache
 .jekyll-metadata
-*~
+
 Gemfile.lock

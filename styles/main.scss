@@ -6,7 +6,7 @@
 // main.scss
 
 /**{
-	outline: 1px dotted rgba(255,0,0,.25);
+  outline: 1px dotted rgba(255,0,0,.25);
 }*/
 
 @import 'vars';
@@ -22,114 +22,114 @@
 
 html,
 body {
-	background-color: $white;
-	background-image: url(../images/speckletone-bg.png);
+  background-color: $white;
+  background-image: url(../images/speckletone-bg.png);
 
-	color: $dark-gray;
-	font-family: $serif;
-	font-size: $rem; /* 1rem */
-	line-height: 1.5em;
+  color: $dark-gray;
+  font-family: $serif;
+  font-size: $rem; /* 1rem */
+  line-height: 1.5em;
 }
 
 img {
-	display: block;
-	width: 100%;
+  display: block;
+  width: 100%;
 }
 
 .thumbs a {
-	color: $light-gray;
-	font-style: italic;
-	line-height: 3em;
-	text-align: center;
-	text-decoration: none;
+  color: $light-gray;
+  font-style: italic;
+  line-height: 3em;
+  text-align: center;
+  text-decoration: none;
 
-	img {
-		-webkit-filter: grayscale(1);
-		filter: grayscale(1);
-		transition: -webkit-filter 250ms ease,
-						filter 250ms ease;
-	}
+  img {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: -webkit-filter 250ms ease,
+            filter 250ms ease;
+  }
 
-	&:hover img {
-		-webkit-filter: none;
-		filter: none;
-	}
+  &:hover img {
+    -webkit-filter: none;
+    filter: none;
+  }
 }
 
 .about img {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
 .twelve-days-of-cookies img {
-	border: 1px solid #CBC5C0;
+  border: 1px solid #CBC5C0;
 }
 
 .cookie-downloads {
-	a {
-		background-color: #F37070;
-		position: relative;
-		display: block;
+  a {
+    background-color: #F37070;
+    position: relative;
+    display: block;
 
-		img {
-			transition: opacity 250ms ease;
-		}
+    img {
+      transition: opacity 250ms ease;
+    }
 
-		&::after {
-			display: block;
-			left: 50%;
-			position: absolute;
-			top: 50%;
-			// width: 62.5%;
+    &::after {
+      display: block;
+      left: 50%;
+      position: absolute;
+      top: 50%;
+      // width: 62.5%;
 
-			color: white;
-			font-family: $sans;
-			font-size: 2em;
-			font-weight: 700;
-			letter-spacing: 0.15em;
-			line-height: 1.25em;
-			text-align: center;
-			text-transform: uppercase;
+      color: white;
+      font-family: $sans;
+      font-size: 2em;
+      font-weight: 700;
+      letter-spacing: 0.15em;
+      line-height: 1.25em;
+      text-align: center;
+      text-transform: uppercase;
 
-			content: "Download Recipe";
-			opacity: 0;
-			transform: translate(-50%, -50%);
-			transition: opacity 250ms ease;
-		}
+      content: "Download Recipe";
+      opacity: 0;
+      transform: translate(-50%, -50%);
+      transition: opacity 250ms ease;
+    }
 
-		&:hover {
-			img {
-				opacity: 0.35;
-			}
+    &:hover {
+      img {
+        opacity: 0.35;
+      }
 
-			&::after {
-				opacity: 1;
-			}
-		}
-	}
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
 }
 
 .store {
-	h1 {
-		text-align: center;
-	}
+  h1 {
+    text-align: center;
+  }
 }
 
 h1 {
-	font-family: $sans;
-	font-size: 1.5rem;
-	font-weight: 400;
-	line-height: 1.25em;
-	text-transform: uppercase;
+  font-family: $sans;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.25em;
+  text-transform: uppercase;
 }
 
 p {
-	line-height: 1.5em;
+  line-height: 1.5em;
 }
 
 a {
-	color: $turquoise;
-	font-weight: 700;
-	text-decoration: none;
+  color: $turquoise;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 input[type=color],
@@ -147,55 +147,55 @@ input[type=time],
 input[type=url],
 input[type=week],
 textarea {
-	display: block;
-	max-width: 100%;
-	padding: 0.25em;
-	width: 100%;
+  display: block;
+  max-width: 100%;
+  padding: 0.25em;
+  width: 100%;
 
-	background-color: transparent;
+  background-color: transparent;
 
-	border: 1px solid $dark-gray;
+  border: 1px solid $dark-gray;
 
-	color: inherit;
-	font: inherit;
+  color: inherit;
+  font: inherit;
 
-	&:focus {
-		border-color: $turquoise;
+  &:focus {
+    border-color: $turquoise;
 
-		box-shadow: 0px 0px 2px 0px $turquoise;
+    box-shadow: 0px 0px 2px 0px $turquoise;
 
-		outline: none;
-	}
+    outline: none;
+  }
 }
 
 textarea {
-	height: 8em;
+  height: 8em;
 }
 
 input[type=submit],
 button[type=submit] {
-	float: right;
-	padding: 0.5em 1em;
+  float: right;
+  padding: 0.5em 1em;
 
-	background-color: $turquoise;
+  background-color: $turquoise;
 
-	border: 1px solid $dark-gray;
+  border: 1px solid $dark-gray;
 
-	color: $white;
-	font: inherit;
+  color: $white;
+  font: inherit;
 
-	&:focus {
-		box-shadow: 0px 0px 8px 0px $turquoise;
+  &:focus {
+    box-shadow: 0px 0px 8px 0px $turquoise;
 
-		outline: none;
-	}
+    outline: none;
+  }
 
-	&:active {
-		box-shadow: none;
-		
-		background-color: darken($turquoise, 10%);
+  &:active {
+    box-shadow: none;
 
-		outline: none;
-	}
+    background-color: darken($turquoise, 10%);
+
+    outline: none;
+  }
 
 }
